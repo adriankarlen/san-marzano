@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>San-Marzano</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style/global.css" />
+        <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
+    </head>
+    <body>
+        <div
+            class="flex flex-justify-center flex-items-center flex-col h-screen w-screen-md m-auto">
+            <h1 class="text-6xl">San-Marzano</h1>
+            <div
+                class="flex flex-justify-between flex-items-center flex-row gap-4">
+                <div>
+                    <label for="pomodoro">Pomodoro</label>
+                    <input
+                        type="number"
+                        id="pomodoro"
+                        name="pomodoro"
+                        value="25"
+                        min="1"
+                        max="60" />
+                </div>
+                <div>
+                    <label for="short-break">Short Break</label>
+                    <input
+                        type="number"
+                        id="short-break"
+                        name="short-break"
+                        value="5"
+                        min="1"
+                        max="60" />
+                </div>
+                <div>
+                    <label for="long-break">Long Break</label>
+                    <input
+                        type="number"
+                        id="long-break"
+                        name="long-break"
+                        value="15"
+                        min="1"
+                        max="60" />
+                </div>
+            </div>
+            <div class="tomato-container flex flex-items-start flex-justify-start">
+                <span class="tomato-chop"></span>
+            </div>
+        </div>
+    </body>
+</html>

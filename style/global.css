@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('./vars.css');
+@import url('./tomato-chop.css');
+
+*,
+body {
+    font-family: var(--font-sans-serif);
+    color: hsl(var(--rp-text));
+    background: hsl(var(--rp-base));
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    color: hsl(var(--rp-rose));
+}
+
+label,
+input {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+input {
+    border: none;
+    outline: none;
+}
